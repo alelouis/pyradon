@@ -3,10 +3,10 @@
 ![rustc](https://img.shields.io/badge/python-3.9-normal)
 
 Python bindings for Radon transform rust implementation ([described here](https://github.com/alelouis/radon-transform)).  
-Binding are handled by [PyO3](https://github.com/PyO3/pyo3).
+Bindings are handled by [PyO3](https://github.com/PyO3/pyo3).
 
 ## **How to install**
-Clone the repository and create a Python virtual environment with [`maturin`](https://github.com/PyO3/maturin) dependency).
+Clone the repository and create a Python virtual environment with [`maturin`](https://github.com/PyO3/maturin) dependency.
 ```bash
 gh clone alelouis/pyradon
 conda create -n env_name python=3.9
@@ -29,4 +29,4 @@ radon_transform = pyradon.transform(...)
 ```
 
 ## **Example**
-The notebook `test.ipynb` shows an example of the module on a Shepp-Logan phantom.
+The notebook `example.ipynb` shows an example of the module on a Shepp-Logan phantom.
